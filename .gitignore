@@ -1,0 +1,34 @@
+# Виртуальное окружение
+venv/
+myenv/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Файлы зависимостей
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+
+# Базы данных SQLite
+*.sqlite3
+*.db
+
+# Файлы IDE (VSCode, PyCharm и др.)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Миграции Alembic
+migrations/versions/
+
+# Файлы логов и временные файлы
+*.log
+*.tmp
+instance/
+.env
+.env.example
